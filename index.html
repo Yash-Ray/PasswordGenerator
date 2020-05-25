@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+      <meta charset="UTF-8">
+      <title>PassWord Generator</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="shortcut icon" href="icon.jpg" type="image/gif/">
+
+    </head>
+    <body>
+      
+      <canvas id="c"></canvas>
+
+      <div class="content">
+        <div class="choices">
+          <div class="Capital_select">
+            <input type="checkbox" name="capital" id="capital" value = "1">
+            <label for="capital" id="cap">Include Upper-Case</label>
+          </div>
+          <div class="Small_select">
+            <input type="checkbox" name="small" id="small" value="1">
+            <label for="small" id="sml">Include Lower-Case</label>
+          </div>
+          <div class="Num_select">
+            <input type="checkbox" name="number" id="number" value="1">
+            <label for="number" id="num">Include Numbers</label>
+          </div>
+        </div>
+        
+        
+
+        <div class="output">
+          <label for="password">Generated Password:</label>
+          <textarea name="result" id="password" cols=size rows=auto></textarea>
+        </div>
+        <button type="submit" onclick="generator()">Generate!!</button>
+      </div>
+
+      <footer>
+        <div class = "foot">
+        Made with <span id="heart">&#10084;</span> by Yash Ray.
+        <div class="links">
+        <a href="https://www.linkedin.com/in/yash-ray-8b1a70192" target="_blank"><img src="linkedin.jpg" alt="LinkedIn"></a>
+        <a href="https://github.com/Yash-Ray" target="_blank"><img src="github.png" alt=""></a>
+        <a href="https://www.instagram.com/yashray_08" target="_blank"><img src="instagram.jpg" alt=""></a>
+        </div>
+      </footer>
+        
+
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script><script  src="./script.js"></script>
+      <script src="app.js"></script>
+
+    </body>
+</html>

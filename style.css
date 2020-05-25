@@ -1,0 +1,114 @@
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 50%;
+}
+
+button{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-weight: 700;
+  transition: 0.5s;
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  -webkit-text-stroke: 0.1px white;
+  text-shadow: 2px 3px 10px white;
+}
+button:hover{
+  box-shadow: 2px 10px 20px black;
+  transition: 0.5s;
+}
+textarea{
+  /* margin-top: 20px; */
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: transparent;
+  /* border: transparent; */
+  transition: 1s;
+  margin-top: 20px;
+}
+textarea:focus{
+  box-shadow: 2px 10px 20px black;
+  transition: 1s;
+}
+textarea::content{
+  box-shadow: 2px 10px 20px black;
+  transition: 1s;
+}
+label{
+  font-weight: bold;
+  -webkit-text-stroke: 0.1px white;
+  text-shadow: 2px 3px 10px white;
+}
+.output{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 0rem;
+  position: fixed;
+  left: 50%;
+  top:90%;
+  transform: translate(-50%,-50%);
+}
+#sml,#cap, #num{
+  padding-left: 5px;
+  line-height: 2rem;
+  font-size: 3vh;
+}
+#capital,#small, #number{
+  height: 2.5vh;
+  width: 2.5vh;
+}
+.choices,.output{
+  display: block;
+}
+
+.foot{
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  margin:0;
+  padding-top: 10px;
+  font-weight: bold;
+  width: 100vw;
+  height: 7vh;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  text-align: center;
+}
+#heart{
+  color: red;
+  /* font-size: 20px; */
+}
+img{
+  height: 20px;
+  width: 20px;
+  /* padding-bottom: 10px; */
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0.5%;
+}
