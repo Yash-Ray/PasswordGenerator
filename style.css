@@ -44,7 +44,7 @@ textarea{
   vertical-align: middle;
   font-family: 'Lato', sans-serif;
   background-color: transparent;
-  /* border: transparent; */
+  border: transparent;
   transition: 1s;
   margin-top: 20px;
 }
